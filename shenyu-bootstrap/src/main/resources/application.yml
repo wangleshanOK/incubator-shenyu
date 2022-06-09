@@ -29,12 +29,12 @@ spring:
       ribbon:
         enabled: false
     discovery:
-      enabled: false
+      enabled: true
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848 # Spring Cloud Alibaba Dubbo use this.
-        enabled: false
-        namespace: ShenyuRegisterCenter
+        enabled: true
+        namespace: 2dfdefa9-1ddb-482d-84ee-41bffc4d10ea
 
 eureka:
   client:
